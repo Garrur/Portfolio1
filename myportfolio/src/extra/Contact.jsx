@@ -16,7 +16,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/contact", formData);
+      await axios.post("https://portfolio1-rych.onrender.com/api/contact", formData);
       setIsMessageSent(true);
     } catch (error) {
       console.error("Error submitting form:", error);
