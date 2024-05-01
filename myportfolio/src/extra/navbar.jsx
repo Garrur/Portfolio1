@@ -38,9 +38,9 @@ export const Nav = () => {
           </span>
         </div>
         <div className="block lg:hidden">
-          <span class="inline-block size-[62px] bg-gray-100 rounded-full overflow-hidden">
+          <span className="inline-block size-[62px] bg-gray-100 rounded-full overflow-hidden">
             <svg
-              class="size-full text-gray-300"
+              className="size-full text-gray-300"
               width="16"
               height="16"
               viewBox="0 0 16 16"
@@ -89,10 +89,10 @@ export const Nav = () => {
           </div>
           <div>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/15en05Ovl2IMAUhTGaimIYtJlwX9wIOLr/view"
               className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
             >
-              Download
+              Download CV
             </a>
           </div>
         </div>
