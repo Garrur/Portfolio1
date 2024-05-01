@@ -5,6 +5,7 @@ import { SimpleCard } from "../extra/Card";
 import { Contact } from "../extra/Contact";
 import { Intro } from "../extra/IntroCard";
 import { About } from "../extra/About";
+import { Skill } from "../extra/Skill";
 
 export const Main = () => {
   return (
@@ -20,7 +21,9 @@ export const Main = () => {
           <div className=" flex justify-center item-center">
             <About />
           </div>
-          <div className="border text-white">Skills</div>
+          <div className="border text-white">
+            <Skill />
+          </div>
         </div>
         <div className=" flex-grow">
           <div className="">
@@ -37,8 +40,7 @@ export const Main = () => {
                   <SimpleCard />
                   <SimpleCard />
                   <SimpleCard />
-                  <SimpleCard />
-                  <SimpleCard />
+                 
                 </div>
               </div>
             </div>
