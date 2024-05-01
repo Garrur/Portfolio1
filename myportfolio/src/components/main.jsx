@@ -9,13 +9,13 @@ import { Skill } from "../extra/Skill";
 
 export const Main = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-slate-300">
       <div className="">
         <Nav />
       </div>
       <div className="flex flex-col m-8">
         <div className=" flex-grow-0">
-          <div className=" text-white">
+          <div className=" text-white rounded-lg">
             <Intro />
           </div>
           <div className=" flex justify-center item-center">
@@ -48,7 +48,7 @@ export const Main = () => {
           </div>
         </div>
       </div>
-      <div className="border mt-auto">
+      <div className="border mt-auto border border-4 border-black">
         <Footer />
       </div>
     </div>
